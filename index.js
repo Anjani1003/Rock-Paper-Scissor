@@ -22,8 +22,8 @@ const pcbord = document.querySelectorAll('.pc-bord')
 let userinput = ""
 let pcinput = ""
 const choices = ['rock','paper','scissor']
-let userdisplayscore = parseInt(localStorage.getItem('userdisplayscore'));
-let cpudisplayscore = parseInt(localStorage.getItem('cpudisplayscore'))
+let userdisplayscore = parseInt(localStorage.getItem('userdisplayscore'))||0;
+let cpudisplayscore = parseInt(localStorage.getItem('cpudisplayscore'))||0;
 cpuscore.innerHTML = parseInt(localStorage.getItem('cpudisplayscore'))||0;
 playerscore.innerHTML = parseInt(localStorage.getItem('userdisplayscore'))||0;
 
