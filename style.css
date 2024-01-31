@@ -139,7 +139,7 @@ body{
 .main-rule-section{
    position: absolute;
    top: 800px;
-   left: 1140px;
+   left: 79%;
 
 }
 
@@ -197,15 +197,15 @@ li::marker {
 .rule-buttons-win{
     display: flex;
     position:absolute;
-    bottom: 5%;
-    left: 79.5%;
+    top: 680px;
+    left: 79%;
     gap: 20px;
 }
 
 .rule-buttons-loss{
     display: flex;
-    position:fixed;
-    bottom: 5%;
+    position:absolute;
+    top: 680px;
     left: 89.1%;
     gap: 20px;
 }
